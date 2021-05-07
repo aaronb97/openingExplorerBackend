@@ -64,7 +64,13 @@ app.get("/openings/:fen", async (req, res) => {
       chess.undo();
     });
 
-    res.send(moves);
+    const currentOpeningName =
+      openings[getTrimmedFen(chess.fen())]?.name ?? " ";
+
+    res.send({
+      currentOpeningName,
+      moves,
+    });
   } catch (e) {
     console.log(e);
   }
