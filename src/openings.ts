@@ -6496,6 +6496,10 @@ const openings: Record<string, { eco: string; name: string; info?: string[] }> =
     'rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPPKPPP/RNBQ1BNR b kq': {
       eco: 'C20',
       name: 'Bongcloud Attack',
+      info: [
+        'The Bongcloud Attack is considered a joke opening, and is associated with internet chess humor. Being a poor move, its usage can suggest a self-imposed challenge. Twitch streamers such as Grandmaster Hikaru Nakamura have used it in online blitz chess, including in games against high level-opponents, as has World Chess Champion Magnus Carlsen. The name has also been applied to other opening sequences in which one of the players moves the king on move two.',
+        "The opening's name is thought to originate either from Chess.com user \"Lenny_Bongcloud\", who used the opening with little success, or more generally in reference to a bong, a device used to smoke cannabis.[1] The opening's usage in chess humor was furthered by Andrew Fabbro's joke manual Winning With the Bongcloud.",
+      ],
     },
     'rnbqkbnr/pppp1ppp/8/4p3/3PP3/8/PPP2PPP/RNBQKBNR b KQkq': {
       eco: 'C20',
