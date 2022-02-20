@@ -23,6 +23,10 @@ const openings: Record<string, { eco: string; name: string; info?: string[] }> =
     'rnbqkbnr/pppppppp/8/8/8/P7/1PPPPPPP/RNBQKBNR b KQkq': {
       eco: 'A00',
       name: 'Anderssen Opening',
+      info: [
+        "Anderssen's Opening is named after unofficial World Chess Champion Adolf Anderssen, who played it thrice in his 1858 match against Paul Morphy. Although Anderssen was defeated decisively in the match, the games he opened with the novelty scored 1½/3 (one win, one loss, one draw).",
+        "Anderssen's Opening is not commonly played, and is an irregular opening. The move is classified under the A00 code in the Encyclopaedia of Chess Openings. Anderssen's Opening is also the very first opening enumerated in the Oxford Companion to Chess' index of 1327 openings, due to a systematic ordering which begins at White's left-hand queenside and proceeds to White's right-hand kingside.",
+      ],
     },
     'rnbqkbnr/1ppppppp/8/p7/1P6/P7/2PPPPPP/RNBQKBNR b KQkq': {
       eco: 'A00',
@@ -571,6 +575,10 @@ const openings: Record<string, { eco: string; name: string; info?: string[] }> =
     'rnbqkbnr/pppppppp/8/8/P7/8/1PPPPPPP/RNBQKBNR b KQkq': {
       eco: 'A00',
       name: 'Ware Opening',
+      info: [
+        'The Ware Opening, also known as Meadow Hay Opening, is an uncommon chess opening.',
+        'It is named after Preston Ware, a U.S. chess player who often played uncommon openings. The Ware is considered an irregular opening; it is classified under the A00 code in the Encyclopaedia of Chess Openings.',
+      ],
     },
     'r1bqkbnr/p1pnpppp/1p6/3p4/P2P4/2N5/1PP1PPPP/R1BQKBNR w KQkq': {
       eco: 'A00',
