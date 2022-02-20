@@ -41,6 +41,7 @@ interface Move {
   name: string;
   to: string;
   from: string;
+  hasInfo: boolean;
 }
 
 app.get('/openings/:fen', async (req, res) => {
@@ -58,17 +59,21 @@ app.get('/openings/:fen', async (req, res) => {
           from: possibleMove.from,
           to: possibleMove.to,
           name: opening.name,
+          hasInfo: opening.info !== undefined,
         });
       }
 
       chess.undo();
     });
 
-    const currentOpeningName =
-      openings[getTrimmedFen(chess.fen())]?.name ?? ' ';
+    const currentOpening = openings[getTrimmedFen(chess.fen())];
+
+    const currentOpeningName = currentOpening?.name;
+    const currentOpeningInfo = currentOpening?.info;
 
     res.send({
       currentOpeningName,
+      currentOpeningInfo,
       moves,
     });
   } catch (e) {
