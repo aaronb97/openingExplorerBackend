@@ -2950,6 +2950,7 @@ const openings: Record<string, { eco: string; name: string; info?: string }> = {
   'rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq': {
     eco: 'B00',
     name: "King's Pawn",
+    info: "White's assertive opening move opens lines for the queen and king's bishop and fights for control of the squares d5 and f5. This move is popular at all levels of the game and was the favorite opening move of world champion Bobby Fischer who called it 'best by test'. \nOpenings with 1. e4 are traditionally considered more sharp and attacking than those with 1. d4, but this is an extreme generalization and both players will have many more opportunities to influence the type of position that appears. \nWith a pawn on e4, White's simplest plan is to play d4 on the next move, creating a strong 'classical' center.",
   },
   'r1bqkbnr/pppppppp/2n5/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq': {
     eco: 'B00',
