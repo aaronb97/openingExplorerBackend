@@ -9572,6 +9572,9 @@ const openings: Record<string, { eco: string; name: string; info?: string[] }> =
     'r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq': {
       eco: 'C60',
       name: 'Ruy Lopez',
+      info: [
+        'The Ruy Lopez is named after the 16th-century Spanish priest Ruy López de Segura, who made a systematic study of this and other openings in the 150-page book on chess Libro del Ajedrez, written in 1561. Although it bears his name, this particular opening was included in the Göttingen manuscript, which dates from c. 1490. Popular use of the Ruy Lopez opening did not develop, however, until the mid-19th century, when the Russian theoretician Carl Jaenisch "rediscovered" its potential. The opening remains the most commonly used amongst the open games in master play; it has been adopted by almost all players during their careers, many of whom have played it with both colours. Due to the difficulty for Black in achieving equality, a common nickname for the opening is "The Spanish Torture".',
+      ],
     },
     'r1bqk1nr/pppp1ppp/2n5/1B2p3/1b2P3/5N2/PPPP1PPP/RNBQK2R w KQkq': {
       eco: 'C60',
