@@ -303,6 +303,10 @@ const openings: Record<string, { eco: string; name: string; info?: string[] }> =
     'rnbqkbnr/pppppppp/8/8/1P6/8/P1PPPPPP/RNBQKBNR b KQkq': {
       eco: 'A00',
       name: 'Polish Opening',
+      info: [
+        'The Sokolsky Opening (also known as the Orangutan or Polish Opening) is an uncommon chess opening.',
+        'The opening has never been popular at the top level, though a number of prominent players have employed it on occasion (for example, Richard Réti against Abraham Speijer in Scheveningen 1923 and Boris Spassky against Vasily Smyslov in the 1960 Moscow–Leningrad match). Soviet player Alexei Pavlovich Sokolsky (1908–1969) wrote a monograph on this opening in 1963, Debyut 1 b2–b4. In May 2021, world champion Magnus Carlsen essayed the opening against GMs Hikaru Nakamura and Wesley So in the online FTX Crypto Cup rapid tournament.',
+      ],
     },
     'rn1qkbnr/ppp1pppp/8/3p1b2/1P6/8/PBPPPPPP/RN1QKBNR w KQkq': {
       eco: 'A00',
@@ -403,6 +407,9 @@ const openings: Record<string, { eco: string; name: string; info?: string[] }> =
     'rnbqkbnr/pppppppp/8/8/8/2P5/PP1PPPPP/RNBQKBNR b KQkq': {
       eco: 'A00',
       name: 'Saragossa Opening',
+      info: [
+        'This opening became popular in the Saragossa chess club (Zaragoza, Spain) in 1919. The next year club member José Juncosa analyzed the opening in Revista del Club Argentino. In 1922 a theme tournament requiring the players to open with 1.c3 was arranged in Mannheim with three participants, Siegbert Tarrasch, Paul Leonhardt and Jacques Mieses, which Tarrasch won.',
+      ],
     },
     'rnbqkbnr/pppppppp/8/8/8/N7/PPPPPPPP/R1BQKBNR b KQkq': {
       eco: 'A00',
@@ -603,6 +610,11 @@ const openings: Record<string, { eco: string; name: string; info?: string[] }> =
     'rnbqkbnr/pppppppp/8/8/8/1P6/P1PPPPPP/RNBQKBNR b KQkq': {
       eco: 'A01',
       name: 'Nimzo-Larsen Attack',
+      info: [
+        'The Nimzo-Larsen Attack is named after the Danish grandmaster Bent Larsen. Larsen was inspired by the example of the great Latvian-Danish player and theoretician Aron Nimzowitsch (1886–1935), who often played 1.Nf3 followed by 2.b3, which is sometimes called the Nimzowitsch–Larsen Attack. It is classified under the A01 code in the Encyclopaedia of Chess Openings.',
+        'Although Larsen was initially very successful with this opening, it suffered a setback in the 1970 USSR vs. Rest of the World match in Belgrade, where Larsen played it against reigning World Champion Boris Spassky and lost in 17 moves. Larsen was also decisively defeated when playing it against Rosendo Balinas, Jr. at Manila in 1975.',
+        "Notably, this opening received interest from Bobby Fischer the same year, who employed 1.b3 on at least five occasions, winning all five, including games with GM Miroslav Filip, GM Henrique Mecking (Palma de Mallorca 1970 Interzonal), GM Vladimir Tukmakov (Buenos Aires 1970), and GM Ulf Andersson (Siegen 1970). Today, Larsen's Opening is occasionally used at the GM-level, with top grandmasters Hikaru Nakamura, Richárd Rapport, and Adhiban Baskaran employing it successfully.",
+      ],
     },
     'rnbqkbnr/ppp1pppp/8/3p4/8/1P6/P1PPPPPP/RNBQKBNR w KQkq': {
       eco: 'A01',
@@ -6498,7 +6510,7 @@ const openings: Record<string, { eco: string; name: string; info?: string[] }> =
       name: 'Bongcloud Attack',
       info: [
         'The Bongcloud Attack is considered a joke opening, and is associated with internet chess humor. Being a poor move, its usage can suggest a self-imposed challenge. Twitch streamers such as Grandmaster Hikaru Nakamura have used it in online blitz chess, including in games against high level-opponents, as has World Chess Champion Magnus Carlsen. The name has also been applied to other opening sequences in which one of the players moves the king on move two.',
-        "The opening's name is thought to originate either from Chess.com user \"Lenny_Bongcloud\", who used the opening with little success, or more generally in reference to a bong, a device used to smoke cannabis.[1] The opening's usage in chess humor was furthered by Andrew Fabbro's joke manual Winning With the Bongcloud.",
+        "The opening's name is thought to originate either from Chess.com user \"Lenny_Bongcloud\", who used the opening with little success, or more generally in reference to a bong, a device used to smoke cannabis. The opening's usage in chess humor was furthered by Andrew Fabbro's joke manual Winning With the Bongcloud.",
       ],
     },
     'rnbqkbnr/pppp1ppp/8/4p3/3PP3/8/PPP2PPP/RNBQKBNR b KQkq': {
